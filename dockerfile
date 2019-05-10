@@ -1,6 +1,6 @@
 #!/usr/bin/env docker build --compress -t pvtmert/safaribooks -f
 
-FROM python:3
+FROM python:3-slim
 
 VOLUME /data/Books
 WORKDIR /data

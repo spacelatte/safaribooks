@@ -1,3 +1,11 @@
+# QuickStart:
+
+use docker image as follows:
+
+```
+docker run --rm -itv "$(pwd):/data/Books" pvtmert/safaribooks --cred "{your_login_name}:{your_password} {book_number}
+```
+
 # SafariBooks
 Download and generate *EPUB* of your favorite books from [*Safari Books Online*](https://www.safaribooksonline.com) library.  
 I'm not responsible for the use of this program, this is only for *personal* and *educational* purpose.  
