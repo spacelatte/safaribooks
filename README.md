@@ -3,7 +3,7 @@
 use docker image as follows:
 
 ```
-docker run --rm -itv "$(pwd):/data/Books" pvtmert/safaribooks --cred "{your_login_name}:{your_password} {book_number}
+docker run --rm -itv "$(pwd):/data/Books" pvtmert/safaribooks --cred "{your_login_name}:{your_password}" {book_number}
 ```
 
 # SafariBooks
